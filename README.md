@@ -8,29 +8,29 @@ A responsive, dark-theme professional portfolio website for GitHub Pages.
 - `value-proposition.html` — Personal Value Proposition
 - `portfolio.html` — Projects and artifacts
 - `artifact-1.html` — AI Through Time artifact
+- `artifact-2.html` — Machine Learning vs. Deep Learning artifact
 - `contact.html` — Contact
 - `assets/css/style.css` — Shared responsive design
 - `assets/js/script.js` — Mobile navigation and current year
-- `assets/timeline/ALML_Timeline_Mohan_Nanwani.pptx` — Original timeline deliverable (if included)
+- `assets/timeline/ALML_Timeline_Mohan_Nanwani.pptx` — Original timeline deliverable
+- `assets/artifacts/MLvsDL.docx` — Machine Learning vs. Deep Learning assignment
+
+## Applying the Artifact 2 update
+Copy the updated files and folders from this package into the root of your existing portfolio repository, allowing the updated `index.html` and `portfolio.html` to replace the old versions. Keep your existing `assets/css/`, `assets/js/`, and `assets/timeline/` folders. Add `assets/artifacts/MLvsDL.docx` at the exact path shown above.
 
 ## Before publishing
 1. Review the bio and value proposition so they reflect your own background, strengths, and goals.
-2. Confirm the tools and process listed on Artifact 1 accurately describe what you did.
-3. Keep the original PowerPoint in `assets/timeline/` with the same filename, or update the download link in `artifact-1.html`.
+2. Confirm the tools and process listed on each artifact page accurately describe what you did.
+3. Keep the original PowerPoint in `assets/timeline/` and the Word document in `assets/artifacts/`, or update the corresponding download links if you change their filenames.
 4. Add any contact information only if you want it to be public.
 5. Check your course rubric and any specific template requirements. The site structure is designed to include the required artifact fields, but follow any additional instructor directions.
 
 ## Publish with GitHub Pages
-1. Create a new GitHub repository (for example, `professional-portfolio`).
-2. Upload all files and folders from this package to the repository root. Ensure `index.html` is at the root.
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then save.
-6. Wait for GitHub Pages to publish. The published address will appear on the Pages settings screen.
-7. Open the published site and test all pages and the PowerPoint download link.
-8. Submit the published portfolio link in Brightspace. Submit your reflection separately in Brightspace, not on the website.
+1. Commit and push the updated files to your existing repository.
+2. Open the published site and test the navigation, both artifact pages, and both download links.
+3. Submit the published portfolio link in Brightspace. Submit the assignment reflection separately in Brightspace, not on the website.
 
 ## Notes
 - This is a static website; no server or build step is required.
 - The website uses no external JavaScript libraries.
-- The content is a starting draft. Review and personalize it before submitting.
+- The artifact descriptions are drafts; review them for accuracy before submitting.
