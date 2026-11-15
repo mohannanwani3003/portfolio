@@ -9,11 +9,13 @@ A responsive, dark-theme professional portfolio website for GitHub Pages.
 - `portfolio.html` — Projects and artifacts
 - `artifact-1.html` — AI Through Time artifact
 - `artifact-2.html` — Machine Learning vs. Deep Learning artifact
+- `artifact-3.html` — Understanding Large Language Models artifact
 - `contact.html` — Contact
 - `assets/css/style.css` — Shared responsive design
 - `assets/js/script.js` — Mobile navigation and current year
 - `assets/timeline/ALML_Timeline_Mohan_Nanwani.pptx` — Original timeline deliverable
 - `assets/artifacts/MLvsDL.docx` — Machine Learning vs. Deep Learning assignment
+- `assets/artifacts/AI Training Interaction by Mohan Nanwani.docx` — AI Training Interaction assignment
 
 ## Applying the Artifact 2 update
 Copy the updated files and folders from this package into the root of your existing portfolio repository, allowing the updated `index.html` and `portfolio.html` to replace the old versions. Keep your existing `assets/css/`, `assets/js/`, and `assets/timeline/` folders. Add `assets/artifacts/MLvsDL.docx` at the exact path shown above.
@@ -34,3 +36,7 @@ Copy the updated files and folders from this package into the root of your exist
 - This is a static website; no server or build step is required.
 - The website uses no external JavaScript libraries.
 - The artifact descriptions are drafts; review them for accuracy before submitting.
+
+
+## Applying the Artifact 3 update
+Copy the updated `index.html`, `portfolio.html`, and new `artifact-3.html` into the root of your existing repository. Keep your existing `assets/css/`, `assets/js/`, and `assets/timeline/` folders and the existing Artifact 1 and Artifact 2 files. Add the supplied AI Training Interaction Word document to `assets/artifacts/` at the exact path shown above. Test the Artifact 3 page and its download link after publishing.
