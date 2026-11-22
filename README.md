@@ -40,3 +40,18 @@ Copy the updated files and folders from this package into the root of your exist
 
 ## Applying the Artifact 3 update
 Copy the updated `index.html`, `portfolio.html`, and new `artifact-3.html` into the root of your existing repository. Keep your existing `assets/css/`, `assets/js/`, and `assets/timeline/` folders and the existing Artifact 1 and Artifact 2 files. Add the supplied AI Training Interaction Word document to `assets/artifacts/` at the exact path shown above. Test the Artifact 3 page and its download link after publishing.
+
+
+## Applying the Artifact 4 update
+Copy the updated `index.html`, `portfolio.html`, and new `artifact-4.html` into the root of your existing repository. Keep your existing `assets/css/`, `assets/js/`, `assets/timeline/`, and `assets/artifacts/` folders, along with the existing Artifact 1–3 pages.
+
+Place the submitted Data Challenge Scenarios Word document at this exact path:
+`assets/artifacts/Data-Challenge-Scenarios-Mohan-Nanwani.docx`
+
+The Artifact 4 page links to that filename. If you use a different filename, update the download link in `artifact-4.html` to match it.
+
+## Before publishing Artifact 4
+1. Confirm the Word document is present at the path above.
+2. Open `artifact-4.html` locally and test the navigation and document download.
+3. Check that the three scenarios and reflection accurately represent your completed activity.
+4. Commit and push the updated files to GitHub Pages, then test the live Artifact 4 page and download link.

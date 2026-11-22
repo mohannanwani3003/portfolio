@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mohan Nanwani's Data Challenge Scenarios artifact exploring data quality, bias, distribution shift, privacy, security, and governance in machine learning.">
+<title>Artifact 4 — Data Challenge Scenarios | Mohan Nanwani — Professional Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="index.html"><span class="brand-mark">MN</span><span>Mohan Nanwani<small>Professional Portfolio</small></span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+<nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="about.html">About Me</a>
+<a href="value-proposition.html">Value Proposition</a>
+<a href="portfolio.html" aria-current="page">My Portfolio</a>
+<a href="contact.html">Contact</a>
+</nav>
+<a class="button" href="contact.html">✉ Get in Touch</a>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="container">
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="portfolio.html">My Portfolio</a> / Artifact 4</div>
+<div class="eyebrow">Artifact 04 · Machine Learning Fundamentals</div>
+<h1>Data Challenge Scenarios: Making Responsible Machine-Learning Decisions</h1>
+<p class="lead">A guided, three-part exercise examining data quality, bias and distribution shift, and privacy-preserving collaboration in realistic machine-learning settings.</p>
+</div></section>
+
+<section class="section"><div class="container content-stack">
+<div class="card"><h2>Introduction</h2>
+<p>This artifact documents my participation in an AI-guided learning activity about common data challenges faced by machine-learning practitioners. Rather than focusing only on model selection, the exercise asked me to reason through decisions that affect the quality, fairness, reliability, and responsible use of machine-learning systems.</p>
+</div>
+
+<div class="card"><h2>Description</h2>
+<p>The activity presented three fictional scenarios. In each one, I made a decision, explained my reasoning, and responded to follow-up questions that tested the assumptions and limitations behind my approach.</p>
+<div class="timeline">
+<div class="timeline-item"><strong>Scenario 1 · Data Quality and Cleaning</strong>Reviewed duplicate reviews, missing ratings, emoji-only reviews, bot spam, labeling reliability, and the risk of removing underrepresented languages during cleaning.</div>
+<div class="timeline-item"><strong>Scenario 2 · Bias and Responsible Scaling</strong>Considered how country-specific hiring practices and historical decisions can affect a résumé-screening model, and why local pilots and group-level evaluation matter.</div>
+<div class="timeline-item"><strong>Scenario 3 · Privacy, Security, and Governance</strong>Proposed federated learning for collaboration between two fictional hospitals, with attention to secure aggregation, differential privacy, coding standardization, and site-level validation.</div>
+</div></div>
+
+<div class="card"><h2>Objective</h2>
+<p>The objective was to develop practical reasoning about data preparation, representation, model evaluation, responsible deployment, and privacy-aware data collaboration. The activity also emphasized explaining tradeoffs, identifying residual risks, and proposing ways to validate and monitor a model.</p>
+</div>
+
+<div class="card"><h2>Process</h2>
+<p>I worked through the scenarios in sequence with an AI chatbot. I first proposed approaches based on my understanding, then answered follow-up questions about missing data, label reliability, representation, fairness, proxy variables, privacy risks, data compatibility, and model validation. The discussion helped me refine some initial ideas—for example, choosing human review rather than automatically generating missing star-rating labels, and recognizing that federated learning still needs additional privacy and security safeguards.</p>
+<p>The exercise concluded with a synthesis of the three scenarios and a personal reflection on the lessons learned.</p>
+</div>
+
+<div class="card"><h2>Tools and Technologies Used</h2>
+<p><strong>AI tool:</strong> ChatGPT, used as an interactive learning coach.</p>
+<p><strong>Concepts discussed:</strong> Data profiling, deduplication, human label review, representation checks, distribution shift, subgroup metrics, proxy variables, fairness-aware training, federated learning, secure aggregation, differential privacy, data standardization, and ongoing monitoring.</p>
+<p><strong>Deliverable:</strong> Completed assignment document containing the practice summary and personal reflection.</p>
+</div>
+
+<div class="card"><h2>Key Learning Outcomes</h2>
+<ul class="detail-list">
+<li>Data cleaning should improve quality without unnecessarily removing meaningful examples or underrepresented groups.</li>
+<li>Labels derived from indirect signals, such as star ratings, should be checked rather than automatically treated as ground truth.</li>
+<li>Strong performance on historical test data does not prove that a model will generalize fairly to a new country or population.</li>
+<li>Removing a sensitive or potentially unfair feature does not necessarily remove its influence when proxy variables remain.</li>
+<li>Federated learning can reduce the need to centralize raw records, but model updates and shared models may still create privacy and security risks.</li>
+<li>Validation should examine relevant groups and deployment sites, with ongoing monitoring and human oversight.</li>
+</ul></div>
+
+<div class="card"><h2>Value Proposition</h2>
+<h3>Unique Value</h3>
+<p>This artifact demonstrates my ability to connect machine-learning concepts with realistic decisions, explain why a proposed approach may be useful, and consider its limitations. It also shows how I use questions and feedback to examine assumptions and refine my reasoning.</p>
+<h3>Relevance</h3>
+<p>Data quality, fairness, privacy, and monitoring are important throughout the machine-learning lifecycle. Understanding these issues helps me evaluate AI systems beyond headline accuracy and consider whether they are appropriate for the people and environments they are intended to serve.</p>
+</div>
+
+<div class="card"><h2>Artifact Reflection</h2>
+<p>This activity helped me understand that building a machine-learning model involves much more than selecting an algorithm and training it on available data. I found the second scenario particularly interesting because it showed how historical decisions and differences between countries can affect a model's predictions. A model that performs well on one dataset might not perform equally well in a different environment. I also learned more about federated learning and how organizations can collaborate without directly sharing sensitive data. However, keeping raw data local does not automatically eliminate privacy risks, so additional safeguards are necessary.</p>
+<p>The follow-up questions challenged me to look more closely at my initial suggestions. For example, I moved away from automatically estimating missing star ratings and chose human review because generated labels could introduce errors. I also expanded my federated-learning approach by considering differential privacy, and I recognized that removing a university-name field may not remove bias if other features act as proxies. I organized the artifact around the three scenarios so that an instructor or portfolio reader can follow my decisions, the reasoning behind them, and what I learned. Overall, the activity strengthened my understanding that data quality, fairness, privacy, and continuous monitoring are just as important as technical implementation.</p>
+</div>
+
+<div class="card"><h2>Original Project Deliverable</h2>
+<p>The submitted Word document should be placed in <code>assets/artifacts/</code> using the filename shown below. Once added to the repository, the download link will provide the assignment evidence for this artifact.</p>
+<div class="file-panel"><div><strong>Data-Challenge-Scenarios-Mohan-Nanwani.docx</strong><p>Submitted assignment · Practice summary and personal reflection</p></div><a class="button" href="assets/artifacts/Data-Challenge-Scenarios-Mohan-Nanwani.docx" download>Download Word Document ↓</a></div>
+</div>
+
+<div class="card"><p><a href="artifact-3.html">← View Artifact 3: Understanding Large Language Models</a> <span style="margin:0 10px">|</span> <a href="portfolio.html">Back to My Portfolio</a></p></div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>© <span data-year></span> Mohan Nanwani · Professional Portfolio</span><span>Built to document learning, projects, and professional growth.</span></div></footer>
+<script src="assets/js/script.js"></script>
+</body></html>
